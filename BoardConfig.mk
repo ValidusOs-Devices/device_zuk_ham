@@ -94,7 +94,7 @@ BOARD_CHARGER_DISABLE_INIT_BLANK := true
 TARGET_TAP_TO_WAKE_NODE :="/sys/devices/virtual/touch/tp_dev/gesture_on"
 
 # Extended filesystem support
-TARGET_EXFAT_DRIVER := exfat
+TARGET_EXFAT_DRIVER := sdfat
 
 # Filesystem
 BOARD_BOOTIMAGE_PARTITION_SIZE     := 20971520
